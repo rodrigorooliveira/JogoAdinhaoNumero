@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jogo da Forca - Javascript Rodrigo</title>
+    <link rel="stylesheet" href="./css/jogoAdvinha.css">
+</head>
+<body>
+    <h2>Jogo Advinha o Número</h2>
+    <div class="container">
+        <div class="form">
+            <label for="palpiteField">Digite o seu Palpite: </label>
+            <input type="number" min="1" max="100" required id="palpiteField" 
+            class="palpiteField">
+            <input type="submit" value="Palpitar" class="palpiteSubmit">
+        </div>
+        <div class="resultParas">
+            <p class="palpites"></p>
+            <p class="lastResult"></p>
+            <p class="lowOrHi"></p>
+        </div>
+    </div>
+    
+</body>
+<script src="./js/advinhanumero.js"></script>
+</html>

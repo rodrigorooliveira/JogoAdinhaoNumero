@@ -1,0 +1,45 @@
+.resultParas {
+    display: flexbox;
+    justify-items: center;
+    justify-content: center;
+    background-color: #e3c6f0;
+    border-radius: 25px;
+}
+
+.form {
+    margin-bottom: 30px;
+}
+
+.palpiteField {
+    width: 57%;
+}
+
+h2 {
+    margin-left: 600px;
+}
+
+.palpiteSubmit {
+    display: block;
+    margin-left: 150px;
+    margin-top: 5px;
+     border-radius: 5px;
+     text-align: center;
+     border: none;
+     padding: 10px 22px;
+     cursor: pointer;  
+}
+.palpiteSubmit:hover {
+    background-color: black;
+    color:#fff;
+}
+
+.container {
+    margin-left: 550px;
+    display: block;
+    
+    border-radius: 25px;
+    padding: 20px;
+    width: 25%;
+    height: 100%;
+    background-color: #c7f2cc;
+}
